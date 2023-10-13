@@ -1,0 +1,45 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 40% ;
+    margin: 0 auto ;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+   
+
+}
+.container img{
+    width: 100%;
+}
+.nav{
+    width: 90%;
+    height: 800px;
+    background-color: black;
+    margin: 0 auto;
+    position: sticky;
+    z-index: 1;
+    margin-bottom: 100px;
+
+} */
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 35px;
+}
+div{
+    width: 400px;
+}
+#about{
+    background-color: red;
+}
+.home{
+    display: none;
+}
+.contact{
+    display: none;
+}

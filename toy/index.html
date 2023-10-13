@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <!-- <div class="container">
+        <img src="./assets/media/photo_2023-07-16_11-10-07.jpg" alt="">
+    </div>
+    <div class="nav">
+        
+    </div> --> 
+    <div class="container">
+    <button id="about">about</button>
+    <button id="home">home</button>
+    <button id="contact">contact</button>
+
+    <div id="ab" class="about">
+        <p>Lorem ipsum dolor sit am Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident explicabo ipsum, repellendus animi corrupti et est iste fugit nostrum, temporibus voluptates placeat dolore molestiae eaque nihil perferendis ab. Distinctio, eius! itate vero?</p>
+    </div>
+    <div id="ho" class="home">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quisquam pariatur corrupti dignissimos amet reiciendis explicabo animi porro  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro nulla libero, recusandae natus animi, eius amet et a reiciendis, sed quaerat ex? cupiditate vero?</p>
+    </div>
+    <div id="co" class="contact">
+        <p>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque sapiente id quasi cupiditate accusantium, adipisci animi aspernatur cum impedit tenetur nemo aperiam placeat, explicabo modi. Doloribus numquam nam odit expedita neque facere autem! Voluptas atque sequi dicta quae. Veniam. consectetur adipisicing elit. Quam quisquam pariatur corrupti dignissimos amet reiciendis explicabo animi porro cupiditate vero?</p>
+    </div>
+
+    </div>
+    
+    <script>
+        const tabs = [
+            { button: document.getElementById("about"), content: document.getElementById("ab") },
+            { button: document.getElementById("home"), content: document.getElementById("ho") },
+            { button: document.getElementById("contact"), content: document.getElementById("co") }
+        ];
+    
+        
+        tabs.forEach(tab => {
+            tab.button.addEventListener("click", () => {
+                tabs.forEach(t => {
+                    t.button.style.backgroundColor = tab.button === t.button ? "red" : "white";
+                    t.content.style.display = tab.content === t.content ? "block" : "none";
+                });
+            });
+        });
+    </script>
+    
+</body>
+</html>
